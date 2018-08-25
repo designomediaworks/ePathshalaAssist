@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="profile_width">75dp</dimen>
+    <dimen name="profile_height">75dp</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="button_font_size">10dp</dimen>
+
+
+    <dimen name="gpvch_app_icon_margin">10dp</dimen>
+
+    <dimen name="gpvch_tv_version_code_margin_left">5dp</dimen>
+    <dimen name="gpvch_tv_version_code_margin_right">5dp</dimen>
+    <dimen name="gpvch_tv_version_code_margin_top">10dp</dimen>
+
+    <dimen name="gpvch_tv_header_whats_new">5dp</dimen>
+
+
+    <dimen name="gpvch_tv_changes_margin_left">5dp</dimen>
+    <dimen name="gpvch_tv_changes_margin_right">5dp</dimen>
+    <dimen name="gpvch_tv_changes_margin_bottom">10dp</dimen>
+
+    <integer name="gpvch_tv_changes_max_lines">4</integer>
+</resources>

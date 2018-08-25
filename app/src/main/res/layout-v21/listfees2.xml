@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/corner_layout"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_fees_discount"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false">
+
+        <TextView
+            android:id="@+id/txt_dash"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/l2"
+            android:paddingTop="10dp"
+            android:text="@string/dash"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txt_equal"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/l3"
+            android:paddingTop="10dp"
+            android:text="@string/equalto"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner_layout_fees"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_totalamount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="@string/total_amount"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap,RtlHardcoded"/>
+
+            <TextView
+                android:id="@+id/txt_total_amount_pay"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap,RtlHardcoded"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false"
+            android:layout_toEndOf="@+id/txt_dash"
+            android:background="@drawable/corner_layout_fees"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_totalpaid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="@string/paid_amount"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap,RtlHardcoded"/>
+
+            <TextView
+                android:id="@+id/txt_total_amount_paid"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap,RtlHardcoded"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentRight="false"
+            android:layout_toEndOf="@+id/txt_equal"
+            android:background="@drawable/corner_layout_fees"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_totalbalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="@string/balance"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap,RtlHardcoded"/>
+
+            <TextView
+                android:id="@+id/txt_totalbalance"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RelativeOverlap,RtlHardcoded"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txt_fees_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/txt_Fees_title"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded"/>
+
+        <TextView
+            android:id="@+id/txt_fees_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:text="@string/fees_period"
+            android:textAlignment="textEnd"
+            android:textColor="@color/button_text_color"
+            android:textDirection="ltr"
+            android:textSize="15sp"
+            tools:ignore="RtlHardcoded"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_fees_payment_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/l1"
+        android:layout_margin="1dp"
+        android:padding="5dp"
+        android:text="Fees Payment Date"
+        android:textSize="12sp"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    <TextView
+        android:id="@+id/txt_fees_payment_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_fees_payment_date"
+        android:layout_margin="1dp"
+        android:padding="5dp"
+        android:text="Fees Payment Mode"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+    <TextView
+        android:id="@+id/txt_total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignRight="@+id/l1"
+        android:layout_below="@+id/l1"
+        android:layout_margin="1dp"
+        android:padding="5dp"
+        android:text="@string/total_amount"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap,RtlHardcoded"/>
+
+    <TextView
+        android:id="@+id/txt_fees_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_alignRight="@+id/l1"
+        android:layout_below="@+id/txt_total_amount"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:text="@string/discount"
+        android:textSize="16sp"
+        tools:ignore="RtlHardcoded"/>
+    <TextView
+        android:id="@+id/tv_fees_discount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_below="@+id/txt_total_amount"
+        android:layout_marginTop="15dp"
+        android:layout_toStartOf="@+id/txt_fees_discount"
+        android:padding="5dp"
+        android:text="@string/discount"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded"/>
+
+
+    <Button
+        android:id="@+id/btn_paynow"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/r1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/btn_paynow"
+        android:textColor="@color/button_text_color"/>
+
+</RelativeLayout>
+

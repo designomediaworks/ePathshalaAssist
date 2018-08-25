@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_acount"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="@string/addaccount"/>
+        <item
+            android:id="@+id/nav_cahngeaccount"
+            android:icon="@drawable/ic_recent_actors_black_24dp"
+            android:title="@string/changeaccount"/>
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/logout"/>
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_public_black_24dp"
+                android:title="@string/aboutus" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="@string/privacypolicy" />
+            <item
+                android:id="@+id/nav_app_version"
+                android:icon="@drawable/ic_android_black_24dp"
+                android:title="@string/appverion" />
+        </menu>
+    </item>
+</menu>

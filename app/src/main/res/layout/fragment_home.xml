@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_btn_bg_color"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false">
+
+        <include
+            layout="@layout/profileview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/l1"
+        android:animateLayoutChanges="false"
+        android:background="#fffcfc"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/GridMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_horizontal"
+            android:columnWidth="250dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="2"
+            android:paddingEnd="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"
+            tools:ignore="RtlHardcoded"></GridView>
+
+    </LinearLayout>
+
+</RelativeLayout>

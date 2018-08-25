@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_dayofmonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_centerInParent="false"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="@string/attandance"
+        android:textAlignment="center"
+        android:textColor="@color/FeesTitle"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded,UnknownId"/>
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        android:id="@+id/compactCalendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="325dp"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/txt_dayofmonth"
+        android:layout_centerHorizontal="false"
+        app:compactCalendarBackgroundColor="@color/epathshala_logo"
+        app:compactCalendarCurrentDayBackgroundColor="#B71C1C"
+        app:compactCalendarCurrentDayIndicatorStyle="fill_large_indicator"
+        app:compactCalendarCurrentDayTextColor="@color/warning_stroke_color"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="@color/blue_btn_bg_color"
+        app:compactCalendarCurrentSelectedDayIndicatorStyle="fill_large_indicator"
+        app:compactCalendarCurrentSelectedDayTextColor="@color/colorPrimary"
+        app:compactCalendarEventIndicatorStyle="small_indicator"
+        app:compactCalendarOtherMonthDaysTextColor="#534c4c"
+        app:compactCalendarShouldSelectFirstDayOfMonthOnScroll="true"
+        app:compactCalendarTargetHeight="300dp"
+        app:compactCalendarTextColor="#fff"
+        app:compactCalendarTextSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/iv_intime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_attendance_status_outtime"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/ic_add_student"
+        android:contentDescription="@string/todo"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/txt_attendance_status_intime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/iv_intime"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/FeesTitle"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,RtlHardcoded,UnknownId"/>
+
+    <ImageView
+        android:id="@+id/iv_outtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt_attendance_status_outtime"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/ic_add_student"
+        android:contentDescription="@string/todo"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/txt_attendance_status_outtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_below="@+id/compactCalendarView"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:text="@string/legend_att"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText,RtlHardcoded,UnknownId"/>
+</RelativeLayout>

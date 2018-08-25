@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/epathshala_school_assist_bg"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/loginbg"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
+            android:src="@drawable/epathshala_logo"
+            tools:ignore="ContentDescription" />
+
+        <!-- Email Label -->
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_name"
+            android:textColor="@color/Text_login_titles"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_schoolname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ex. ePathshala"
+            android:inputType="text"
+            android:textColorLink="@color/colorPrimaryDark"
+            tools:ignore="HardcodedText,TextFields" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_id"
+            android:textColor="@color/Text_login_titles"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_stdno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ex_std000001"
+            android:inputType=""
+            android:textColorLink="@color/colorPrimaryDark"
+            tools:ignore="TextFields" />
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <ImageButton
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/loginbutton"
+            android:padding="5dp"
+            android:text="@string/login"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

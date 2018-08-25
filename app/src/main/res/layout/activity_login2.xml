@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/epathshala_logo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="25dp"
+        android:background="@drawable/loginbg"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
+            android:src="@drawable/epathshala_logo"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_name"
+            android:textColor="@color/Text_login_titles"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Email Label -->
+
+
+        <EditText
+            android:id="@+id/input_schoolname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ex. ePathshala"
+            android:inputType="text"
+            tools:ignore="HardcodedText,TextFields"/>
+
+
+        <!-- Password Label -->
+        <!--<android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">-->
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/student_id"
+            android:textColor="@color/Text_login_titles"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/input_stdno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ex_std000001"
+            android:inputType="textCapSentences|textVisiblePassword"
+            tools:ignore="TextFields"/>
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="25dp"
+            android:background="@color/epathshala_logo"
+            android:padding="5dp"
+            android:text="@string/login" />
+    </LinearLayout>
+</RelativeLayout>

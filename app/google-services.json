@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "1053071259180",
+    "firebase_url": "https://eteach-school-assits.firebaseio.com",
+    "project_id": "eteach-school-assits",
+    "storage_bucket": "eteach-school-assits.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053071259180:android:f849d00febb44d12",
+        "android_client_info": {
+          "package_name": "com.eteach.epathshalaassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053071259180-huenbdon7pgrk5698ski63b4ius61h4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_3NMTfPsq7LSJLM1KIpO9m1FV040qLkY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053071259180:android:65995e6245abffd2",
+        "android_client_info": {
+          "package_name": "com.noti.shownoti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053071259180-huenbdon7pgrk5698ski63b4ius61h4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_3NMTfPsq7LSJLM1KIpO9m1FV040qLkY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053071259180:android:540bb5b0666c3332",
+        "android_client_info": {
+          "package_name": "com.eteach.epathshala_assist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053071259180-huenbdon7pgrk5698ski63b4ius61h4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_3NMTfPsq7LSJLM1KIpO9m1FV040qLkY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+<entery>
+    <key>evoting_running_status</key>
+    <value>false</value>
+</entery>
+<entry>
+    <key>evoting_message</key>
+    <value>Do you have pre-registered for eVoting?</value>
+</entry>
+</defaultsMap>

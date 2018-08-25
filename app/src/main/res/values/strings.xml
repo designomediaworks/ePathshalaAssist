@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">ePathshala School  Assist</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_homescreen_activity">Home Screen</string>
+    <string name="txt_notification">notification</string>
+    <string name="attendance">Attendance</string>
+    <string name="events">Events</string>
+    <string name="exam_history">Exam History</string>
+    <string name="fees">Fees</string>
+    <string name="homework">Homework</string>
+    <string name="notifications">Notifications</string>
+    <string name="track_way">Track Way</string>
+    <string name="admission_no">Admission No.</string>
+    <string name="std_class">Class</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="student_address">Student Address</string>
+    <string name="student_name">Student Name</string>
+    <string name="student_name_2">Student Name</string>
+    <string name="date_of_birth_2">Date of Birth</string>
+    <string name="mobile_no_2">Mobile No.</string>
+    <string name="student_address_2">Student Address</string>
+    <string name="btn_paynow">PayNow</string>
+    <string name="fees_period">Fees Period</string>
+    <string name="total_amount">Total</string>
+    <string name="balance_fees">Balance Fees</string>
+    <string name="discount">Discount</string>
+    <string name="paid_amount">Paid</string>
+    <string name="fees_title">Fees Title</string>
+    <string name="account_login">Account Login</string>
+    <string name="login">Login</string>
+    <string name="ex_std000001">ex. STD000001</string>
+    <string name="ex_epathshala">ex. ePathshala</string>
+    <string name="btn_logout">Logout</string>
+    <string name="account_name">Account Name</string>
+    <string name="communicate">Communicate</string>
+    <string name="gallery">Gallery</string>
+    <string name="import_data">Import</string>
+    <string name="aboutus">About Us</string>
+    <string name="appverion">Version</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="changeaccount">Change Account</string>
+    <string name="addaccount">Add Student</string>
+    <string name="logout">LogOut</string>
+    <string name="attancechart">Attandance Chart</string>
+    <string name="schoolname">ePathshala CBSE School</string>
+    <string name="epathshslaemail">info@epathshalaonline.com</string>
+    <string name="openDrawer">open_drawer</string>Magazine
+    <string name="Magazine">Magazine</string>
+    <string name="Gallery">Gallery</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="accounts">Accounts</string>
+    <string name="lable_vote_for">Click here to vote for House Captain </string>
+    <string name="lable_vote_for_president">Click here to vote for President / Vice President</string>
+    <string name="txt_Fees_title">Fees Title</string>
+    <string name="download_report_card">Download Report Card</string>
+    <string name="balance">Bal</string>
+    <string name="payable_fees">Payable Fees</string>
+    <string name="notification_icon">notification_icon</string>
+    <string name="notificationicon">notification icon</string>
+    <string name="school_name">School Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="todo">todo</string>
+    <string name="attandance">Attandance</string>
+    <string name="todoo">TODO</string>
+    <string name="todok">TODO</string>
+    <string name="legend_att">*Dates having dots means your ward is present</string>
+    <string name="equalto">=</string>
+    <string name="dash">-</string>
+    <string name="total_fees_amount">Total Amount</string>
+    <string name="paid_fees_amount">Paid Amount</string>
+    <string name="balance_fees_amount">Balance</string>
+    <string name="view_fees_structure"><![CDATA[View Fees Structure >>]]></string>
+    <string name="change_account">Change Account</string>
+    <string name="change_account_btn">Select</string>
+    <string name="bd_browser_key">8585841e-5a13-41b7-af0d-7851695f8bbe</string>
+    <string name="student_photo">student_photo</string>
+    <string name="homework_title">Homework Title</string>
+    <string name="homework_subject">Homework Subject</string>
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Attandance Chart</item>
+        <item>Add Student</item>
+        <item>Change Account</item>
+        <item>Log Out</item>
+    </string-array>
+    <string-array name="home_screen_menu_item">
+        <item>Home</item>
+        <item>Attandeance</item>
+        <item>Notification</item>
+        <item>Events</item>
+        <item>Exam History</item>
+        <item>Fees</item>
+        <item>HomeWork</item>
+        <item>TrackWay</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_message">ePathshala School Assist Application version update is available</string>
+    <string name="update_now">Update Now</string>
+    <string name="cancel">Cancle</string>
+    <string name="app_upto_date">date</string>
+
+
+    <!--TODO: Application Update service-->
+    <string name="gpvch_header">New version is available!</string>
+    <string name="gpvch_button_positive">Update current version</string>
+    <string name="gpvch_button_negative">Remind me later</string>
+    <string name="gpvch_new_version_info_title">Whats new:</string>
+    <string name="gpvch_google_play_url">https://play.google.com/store/apps/details?id=</string>
+
+    <string name="evoting_yes">Register Now!</string>
+    <string name="evoting_title">eVoting</string>
+    <string name="evoting_message"></string>
+    <string name="homework_submite_date">Homework Submite Date</string>
+    <string name="homework_discreption">Homework Discreption</string>
+</resources>

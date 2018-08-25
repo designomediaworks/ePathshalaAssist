@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff4a4a</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="white">#007cc3</color>
+    <color name="epathshala_logo">#007cc3</color>
+    <color name="profile_background">#ff5252</color>
+    <color name="profile_backgound_primary">#ff4a4a</color>
+    <color name="fees_paid_background">#B7FFD3</color>
+    <color name="fees_not_paid_backround">#fd8689</color>
+    <color name="FeesTitle">#3145c7</color>
+    <color name="Text_default">#000000</color>
+    <color name="Text_login_titles">#145082</color>
+    <color name="bd_options_button_bg">#CFAF63</color>
+    <color name="bd_options_button_click">#a6bccf</color>
+    <color name="gpvch_dialog_text_color">#0d68e7</color>
+    <color name="gpvch_black">#299644</color>
+</resources>

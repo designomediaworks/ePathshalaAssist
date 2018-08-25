@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_dayofmonth"
+        tools:ignore="HardcodedText,RtlHardcoded,UnknownId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_centerInParent="false"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="@string/attandance"
+        android:textAlignment="center"
+        android:textColor="@color/FeesTitle"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        android:id="@+id/compactCalendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/txt_dayofmonth"
+        android:layout_centerHorizontal="false"
+        android:layout_margin="5dp"
+        app:compactCalendarBackgroundColor="@color/epathshala_logo"
+        app:compactCalendarCurrentDayBackgroundColor="#B71C1C"
+        app:compactCalendarCurrentDayIndicatorStyle="fill_large_indicator"
+        app:compactCalendarCurrentDayTextColor="@color/warning_stroke_color"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="@color/blue_btn_bg_color"
+        app:compactCalendarCurrentSelectedDayIndicatorStyle="fill_large_indicator"
+        app:compactCalendarCurrentSelectedDayTextColor="@color/colorPrimary"
+        app:compactCalendarEventIndicatorStyle="small_indicator"
+        app:compactCalendarOtherMonthDaysTextColor="#534c4c"
+        app:compactCalendarShouldSelectFirstDayOfMonthOnScroll="true"
+        app:compactCalendarTargetHeight="450dp"
+        app:compactCalendarTextColor="#fff"
+        app:compactCalendarTextSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/iv_intime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/compactCalendarView"
+        android:layout_margin="25dp"
+        android:background="@drawable/ic_add_student"
+        android:contentDescription="@string/todo"/>
+
+    <TextView
+        android:id="@+id/txt_attendance_status_intime"
+        tools:ignore="HardcodedText,RtlHardcoded,UnknownId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/iv_intime"
+        android:layout_centerInParent="false"
+        android:layout_margin="25dp"
+        android:textColor="@color/FeesTitle"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/iv_outtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/compactCalendarView"
+        android:layout_margin="25dp"
+        android:background="@drawable/ic_add_student"
+        android:contentDescription="@string/todo"/>
+
+    <TextView
+        android:id="@+id/txt_attendance_status_outtime"
+        tools:ignore="HardcodedText,RtlHardcoded,UnknownId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_below="@+id/iv_intime"
+        android:layout_centerInParent="false"
+        android:layout_margin="25dp"
+        android:textColor="@color/FeesTitle"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

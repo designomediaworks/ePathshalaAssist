@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/corner_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epathshala_logo">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_today_black_24dp" />
+
+        <TextView
+            android:id="@+id/txt_childe_homework_submission_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/homework_submite_date"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_childe_homework_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/homework_title"
+        android:textColor="@color/Text_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/txt_childe_homework_disc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/homework_discreption"
+        android:textColor="@color/Text_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/iv_homework_photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/btn_download_view"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/epathshala_logo"
+        android:lineSpacingExtra="8sp"
+        android:text="Download / View"
+        android:textAlignment="center"
+        android:textColor="@color/button_text_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
